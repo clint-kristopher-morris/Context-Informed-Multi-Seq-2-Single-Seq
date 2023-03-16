@@ -3,9 +3,9 @@ ___
 This study aims to combine data from Georgia Department of Transportation's Continuous Count Stations (CCS) and Video Detection System (VDS) stations. CCS are sparsely located and provide statewide vehicle count and classification data. VDS stations are more densely deployed for monitoring traffic and providing real-time information. By matching VDS stations to CCS sites, a deep learning model called Contextual Informed Multi-Sequence to Single-Sequence (CIMS2SS) is created to generate or estimate CCS data from VDS data. The model uses spatiotemporal contextual information, historical median trends, and spatial distances of VDS stations to predict traffic volume at CCS sites. This can be used for quality control, generating data from VDS where CCS sites are absent, or substituting CCS data when stations are inactive or under maintenance.
 
 <br><br>
-## 1. Methodology
+## 2. Methodology
 ___
-#### 1.1 CIMS2SS Architecture and Results
+#### 2.1 CIMS2SS Architecture and Results
 Our approach aimed to improve traffic prediction by incorporating spatiotemporal context. We selected the top five Video Detection System (VDS) locations that matched a target Continuous Count Station (CCS) location the best, and used the corresponding VDS volume trends along with their contextual features, such as Scale-Invariant Dynamic Time Warping (SI-DTW) score and geospatial distance, to predict CCS volumes. To achieve this, we extended the Contextual Informed Multi-Sequence to Single-Sequence (CIMS2SS) architecture with a parallel branch to inject spatiotemporal contextual information, as illustrated below."
 
 <img src="./ref/im/model.png" alt="model"  width="480">
@@ -18,11 +18,11 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 
 <br>
 
-#### 1.2 UI Demo for Exploring Site Matches Based on Scale-Invariant Dynamic Time Warping (DTW) Methodology
+#### 2.2 UI Demo for Exploring Site Matches Based on Scale-Invariant Dynamic Time Warping (DTW) Methodology
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
 <br><br>
 
-#### 1.3 UI Sample Predictions
+#### 2.3 UI Sample Predictions
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
 
 ##### Icon Format:
@@ -31,7 +31,7 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 <p class="CCS Holdout"><img src="https://i.ibb.co/s9RXp3G/output-onlinepngtools-6.png" alt="Example Image 2" style="vertical-align: bottom; width:18px;"> VDS locations</p>
 
 <br><br>
-## 2. Installation Guide
+## 3. Installation Guide
 ___
 The installation steps outlined below assume that you have already installed the Anaconda package manager on your device.
 #### Step 1: Set Directory
