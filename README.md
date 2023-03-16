@@ -22,7 +22,7 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
 <br><br>
 
-#### 1.2 UI Sample Predictions
+#### 1.3 UI Sample Predictions
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
 
 ##### Icon Format:
