@@ -5,6 +5,10 @@ This study aims to combine data from Georgia Department of Transportation's Cont
 ### UI demo for exploring site matches based on Scale-Invariant Dynamic Time Warping (DTW) methodology
 <img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="680">
 
+|     Performance   Metric    |     Train    |     Validation     |     Test    |
+|-----------------------------|--------------|--------------------|-------------|
+|     MAE (%)                 |     3.5%     |     4.2%           |     5.3%    |
+
 
 ## Installation Guide
 ___
