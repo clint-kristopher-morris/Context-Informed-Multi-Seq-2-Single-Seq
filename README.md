@@ -5,22 +5,20 @@ This study aims to combine data from Georgia Department of Transportation's Cont
 <br><br>
 ## 1. Methodology
 ___
-### 1.1 CIMS2SS Architecture
+### 1.1 CIMS2SS Architecture and Results
 Our approach aimed to improve traffic prediction by incorporating spatiotemporal context. We selected the top five Video Detection System (VDS) locations that matched a target Continuous Count Station (CCS) location the best, and used the corresponding VDS volume trends along with their contextual features, such as Scale-Invariant Dynamic Time Warping (SI-DTW) score and geospatial distance, to predict CCS volumes. To achieve this, we extended the Contextual Informed Multi-Sequence to Single-Sequence (CIMS2SS) architecture with a parallel branch to inject spatiotemporal contextual information, as illustrated below."
 
 <img src="./ref/im/model.png" alt="model"  width="480">
-
-
-### 1.2 UI demo for exploring site matches based on Scale-Invariant Dynamic Time Warping (DTW) methodology
-<img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="680">
-
-### 1.3
 
 A total of 72 CCS sites , each was paired with five matched VDS stations, are utilized for model training and testing.  To avoid information leak and ensure fair assessment, 10 CCS sites together with their VDS matches (50 VDS stations) are reserved for model testing. The remaining sites were then segmented into 24-hour windows and split into a training set (80%) and a validation set (20%). As shown in the table below, the CIMS2SS model obtains a test MAE of 5.3%, outperforming the single-station CLT model presented previously. The performance improvement is largely attributed to the addition of the spatiotemporal contextual features, leading to better generalization.  
 
 |     Performance   Metric    |     Train    |     Validation     |     Test    |
 |-----------------------------|--------------|--------------------|-------------|
 |     MAE (%)                 |     3.5%     |     4.2%           |     5.3%    |
+
+
+### 1.2 UI demo for exploring site matches based on Scale-Invariant Dynamic Time Warping (DTW) methodology
+<img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="680">
 
 
 <br><br>
