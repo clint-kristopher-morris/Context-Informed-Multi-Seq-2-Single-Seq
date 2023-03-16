@@ -1,7 +1,7 @@
 ### BackGround
 ___
 
-<img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="480" height="270">
+<img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="480">
 
 
 ### Installation Guide
