@@ -1,7 +1,7 @@
 ### BackGround
 ___
 
-<video src="[https://i.imgur.com/hcRuFBH.mp4](https://i.imgur.com/SPFmH4S.mp4)" width="640" height="360" controls></video>
+<img src="/ref/gif/DemoOne_lightest.gif" alt="My GIF" width="480">
 
 
 ### Installation Guide
