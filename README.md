@@ -35,17 +35,28 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 ## 3. Installation Guide
 ___
 The installation steps outlined below assume that you have already installed the Anaconda package manager on your device.
-#### Step 1: Set Directory
-To navigate to the directory where the app is located, you can use the "cd" command in your terminal or command prompt. Here's an example command:
+app_data
+#### Step 1: Clone the Repository
+#### Step 2: Download the "app_data" Directory
+Please note that the "app_data" directory is not publicly available. You need to contact the laboratory to request access.
+#### Step 3: Update the Path to Your Data Directory ("app_data")
+Open the file utils/init_paths.py and modify the root to:
+```
+your/directory/app_data
+```
+#### Step 4: Set Directory
+Navigate to the directory where the app is located using the cd command in your terminal or command prompt. For example:
 ```commandline
 cd /path/to/app/directory/RP2010_application
 ```
-#### Step 2: Create Environment with Conda
+#### Step 5: Create the Environment with Conda
+Create a new environment for the app by running the following commands:
 ```commandline
 conda create --name RP2010app --file requirements.txt
 conda activate RP2010app
 ```
-#### Step 3: Run Application
+#### Step 6: Run the Application
+Finally, start the application by running the following command:
 ```commandline
 streamlit run app.py
 ```
