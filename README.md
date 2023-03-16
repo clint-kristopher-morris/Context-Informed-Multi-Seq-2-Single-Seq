@@ -14,11 +14,16 @@ Our approach aimed to improve traffic prediction by incorporating spatiotemporal
 ### 1.2 UI demo for exploring site matches based on Scale-Invariant Dynamic Time Warping (DTW) methodology
 <img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="680">
 
+### 1.3
+
+A total of 72 CCS sites , each was paired with five matched VDS stations, are utilized for model training and testing.  To avoid information leak and ensure fair assessment, 10 CCS sites together with their VDS matches (50 VDS stations) are reserved for model testing. The remaining sites were then segmented into 24-hour windows and split into a training set (80%) and a validation set (20%). As shown in the table below, the CIMS2SS model obtains a test MAE of 5.3%, outperforming the single-station CLT model presented previously. The performance improvement is largely attributed to the addition of the spatiotemporal contextual features, leading to better generalization.  
+
 |     Performance   Metric    |     Train    |     Validation     |     Test    |
 |-----------------------------|--------------|--------------------|-------------|
 |     MAE (%)                 |     3.5%     |     4.2%           |     5.3%    |
 
 
+<br><br>
 ## 2. Installation Guide
 ___
 The installation steps outlined below assume that you have already installed the Anaconda package manager on your device.
