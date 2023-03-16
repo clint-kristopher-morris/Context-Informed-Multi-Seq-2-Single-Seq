@@ -20,7 +20,7 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 
 #### 1.2 UI Demo for Exploring Site Matches Based on Scale-Invariant Dynamic Time Warping (DTW) Methodology
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
-
+<br><br>
 
 #### 1.2 UI Sample Predictions
 <img src="./ref/gif/DemoOneV2.gif" alt="My GIF"  width="680">
