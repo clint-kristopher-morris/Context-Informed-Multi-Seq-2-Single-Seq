@@ -22,6 +22,7 @@ A total of 72 CCS sites , each was paired with five matched VDS stations, are ut
 <img src="./ref/gif/DemoOne_lightest.gif" alt="My GIF"  width="680">
 
 <p class="CCS Holdout"><img src="https://i.ibb.co/3f9Y0SG/SX-BLUE-RED-OL.png" alt="Example Image 1" style="vertical-align: bottom; width:20px;"> CCS locations that have preloaded sample data.</p>
+<p class="CCS Holdout"><img src="https://i.ibb.co/Mk75ZR2/SX-BLUE-B.png" alt="Example Image 2" style="vertical-align: bottom; width:20px;"> CCS locations without preloaded sample data.</p>
 
 <br><br>
 ## 2. Installation Guide
